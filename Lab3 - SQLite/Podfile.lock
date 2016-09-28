@@ -1,0 +1,24 @@
+PODS:
+  - SQLite.swift (0.10.1):
+    - SQLite.swift/standard (= 0.10.1)
+  - SQLite.swift/standard (0.10.1)
+
+DEPENDENCIES:
+  - SQLite.swift (from `https://github.com/stephencelis/SQLite.swift.git`, branch `swift3-mariotaku`)
+
+EXTERNAL SOURCES:
+  SQLite.swift:
+    :branch: swift3-mariotaku
+    :git: https://github.com/stephencelis/SQLite.swift.git
+
+CHECKOUT OPTIONS:
+  SQLite.swift:
+    :commit: 1ae7acbcb1b59877cf2e034f72f3d411287a4119
+    :git: https://github.com/stephencelis/SQLite.swift.git
+
+SPEC CHECKSUMS:
+  SQLite.swift: c54b2cb32c2ec77cd52bc7442d05dd51b0623861
+
+PODFILE CHECKSUM: deea920d386bd5c56ec7cfcdf732fef9b9f18d3d
+
+COCOAPODS: 1.1.0.rc.2

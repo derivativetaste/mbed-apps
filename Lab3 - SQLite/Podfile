@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'L3I_Matthie_SQLite' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod ‘SQLite.swift’, :git => 'https://github.com/stephencelis/SQLite.swift.git', :branch => ‘swift3-mariotaku’
+
+  target 'L3I_Matthie_SQLiteTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'L3I_Matthie_SQLiteUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

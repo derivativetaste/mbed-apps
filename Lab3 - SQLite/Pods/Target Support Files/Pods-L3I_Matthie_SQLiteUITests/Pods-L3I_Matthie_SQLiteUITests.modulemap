@@ -1,0 +1,6 @@
+framework module Pods_L3I_Matthie_SQLiteUITests {
+  umbrella header "Pods-L3I_Matthie_SQLiteUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
